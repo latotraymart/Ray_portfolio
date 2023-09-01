@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+  .nav-icons {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+
+  #navbar-design {
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nav-icons {
+    font-size: 35px;
+    margin: 0 20px;
+  }
+
+  #navbar-design {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-icons {
+    font-size: 35px;
+    margin: 0 20px;
+  }
+
+  #navbar-design {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-icons {
+    font-size: 35px;
+    margin: 0 20px;
+  }
+
+  #navbar-design {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav-icons {
+    font-size: 35px;
+    margin: 0 20px;
+  }
+
+  #navbar-design {
+    padding: 10px 25px;
+  }
+}
