@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   background: #000000;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
@@ -26,6 +26,8 @@ body {
 
 .nav-icons {
   border: 1px solid #000000;
+  background: #000000;
+  color: #ffffff;
   border-radius: 50%;
   padding: 5px;
   transition: .3s ease-in-out;
@@ -35,26 +37,41 @@ body {
   text-align: center;
 }
 
-.nav-text {
-  display: none;
-  text-align: center;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.nav-items:hover .nav-text {
-  display: block;
-  position: absolute;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto;
-  width: 100px;
-  transform: translateY(-50px);
-}
-
 .nav-items:hover .nav-icons {
-  transform: scale(1.3);
-  background-color: #000000;
-  color: #ffffff;
+  /* background: none;
+  border: 1px solid #000000;
+  border-radius: 50%; */
+  color: #F05454;
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#hero-profile {
+  background: url('./../assets/rod.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  border: 3px solid #ffffff;
+}
+
+@keyframes animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+#intro-text {
+  text-align: justify;
+  text-justify: inter-word;
 }

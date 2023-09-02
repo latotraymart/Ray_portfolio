@@ -7,6 +7,37 @@
   #navbar-design {
     padding: 10px 15px;
   }
+
+  .nav-items:hover .nav-icons {
+    transform: translateY(-25px) scale(1.5);
+  }
+
+  .nav-text {
+    display: none;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .nav-items:hover .nav-text {
+    display: block;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100px;
+    transform: translateY(-58px);
+  }
+
+  #hero-profile-box {
+    height: 90%;
+  }
+
+  #hero-profile {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -17,6 +48,27 @@
 
   #navbar-design {
     padding: 10px 20px;
+  }
+
+  #nav-title {
+    width: 90px;
+  }
+
+  .nav-items:hover .nav-icons {
+    transform: translateY(-25px) scale(1.6);
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  #hero-profile-box {
+    height: 90%;
+  }
+
+  #hero-profile {
+    height: 350px;
+    width: 350px;
   }
 }
 
@@ -29,6 +81,27 @@
   #navbar-design {
     padding: 10px 20px;
   }
+
+  #nav-title {
+    width: 90px;
+  }
+
+  .nav-items:hover .nav-icons {
+    transform: translateY(-25px) scale(1.6);
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  #hero-profile-box {
+    height: 90%;
+  }
+
+  #hero-profile {
+    height: 350px;
+    width: 350px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -40,6 +113,27 @@
   #navbar-design {
     padding: 10px 20px;
   }
+
+  #nav-title {
+    width: 90px;
+  }
+
+  .nav-items:hover .nav-icons {
+    transform: translateY(-25px) scale(1.8);
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  #hero-profile-box {
+    height: 90%;
+  }
+
+  #hero-profile {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -50,5 +144,26 @@
 
   #navbar-design {
     padding: 10px 25px;
+  }
+
+  #nav-title {
+    width: 90px;
+  }
+
+  .nav-items:hover .nav-icons {
+    transform: translateY(-25px) scale(2);
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  #hero-profile-box {
+    height: 100%;
+  }
+
+  #hero-profile {
+    height: 550px;
+    width: 550px;
   }
 }
