@@ -17,12 +17,13 @@ const Navbar = () => {
           <div className='nav-items' id='nav-title'>
             <NavLink to='/'>
               {/* <span className='nav-text'>Hello!</span> */}
-              <span className='hidden sm:block font-semibold hover:scale-x-110 duration-300'>{menuText}</span>
+              <span className='hidden sm:block font-semibold hover:scale-125 duration-300'>{menuText}</span>
             </NavLink>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Home')} onMouseLeave={() => menuHover('rod.dev')}>
             <NavLink to='/'>
               <span className='nav-text'>Home</span>
+              {/* {window.location.pathname == '#' ? <FaHouse className='nav-active' /> : <FaHouse className='nav-icons' />} */}
               <FaHouse className='nav-icons' />
             </NavLink>
           </div>
@@ -45,7 +46,7 @@ const Navbar = () => {
             </NavLink>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Resume')} onMouseLeave={() => menuHover('rod.dev')}>
-            <NavLink to=''>
+            <NavLink to='/resume'>
               <span className='nav-text'>Resume</span>
               <FaFilePdf className='nav-icons' />
             </NavLink>
