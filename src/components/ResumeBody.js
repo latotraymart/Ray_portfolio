@@ -1,12 +1,13 @@
 import React from 'react';
 import resumePDF from './../assets/Rodrigo-Geneta[RESUME].pdf';
+import { FaDownload } from "react-icons/fa6";
 
 const ResumeBody = () => {
   return (
-    <div className='flex justify-center mt-20 mb-32'>
+    <div className='flex justify-center mt-20 mb-32' id='resume'>
       <div id="resume-body">
         <div className='text-end mb-5'>
-          <a href={resumePDF} target='_blank' rel="noreferrer" download="Rodrigo-Geneta[RESUME]" className='bg-red-400 text-white px-7 py-2 rounded'>Donwload</a>
+        <a href={resumePDF} target='_blank' rel="noreferrer" download="Rodrigo-Geneta[RESUME]" className='bg-red-400 text-white px-7 py-2 rounded hover:bg-red-600'>Download</a>
         </div>
         <div className="text-center">
           <p className='text-base sm:text-lg font-semibold'>Rodrigo P. Geneta Jr.</p>
@@ -99,27 +100,18 @@ skills to be able to aid customers queries and issues. </p>
           <p className='text-center font-semibold text-base mb-1'>Technical Skills</p>
           <hr className='border-2 border-black' />
 
-          <div className='columns-3 mt-1 flex justify-around'>
-            <div>
-              <p className='list-items'>&#8226; HTML</p>
-              <p className='list-items'>&#8226; CSS</p>
-              <p className='list-items'>&#8226; Javascript</p>
-              <p className='list-items'>&#8226; PHP Laravel</p>
-              <p className='list-items'>&#8226; MySQL</p>
+          <div className=''>
+            <div className='mt-3'>
+              <span className='font-bold'>Programming Languages: </span>
+              <span>C++, Java, COBOL, PHP, Javascript</span>
             </div>
-            <div>
-              <p className='list-items'>&#8226; Bootstrap</p>
-              <p className='list-items'>&#8226; Tailwind CSS</p>
-              <p className='list-items'>&#8226; React JS</p>
-              <p className='list-items'>&#8226; Wordpress</p>
-              <p className='list-items'>&#8226; Shopify</p>
+            <div className='mt-3'>
+              <span className='font-bold'>Frameworks and Libraries: </span>
+              <span>Laravel, Bootstrap, Tailwind, React JS</span>
             </div>
-            <div>
-              <p className='list-items'>&#8226; C++</p>
-              <p className='list-items'>&#8226; Java</p>
-              <p className='list-items'>&#8226; COBOL</p>
-              <p className='list-items'>&#8226; Photoshop</p>
-              <p className='list-items'>&#8226; Filmora</p>
+            <div className='mt-3'>
+              <span className='font-bold'>Others: </span>
+              <span>HTML, CSS, MySQL, Wordpress, Shopify, Adobe Photoshop, FIlmora</span>
             </div>
           </div>
         </div>

@@ -15,29 +15,29 @@ const Navbar = () => {
       <div id='navbar-design'>
         <div className='flex justify-between items-center'>
           <div className='nav-items' id='nav-title'>
-            <NavLink to='/'>
-              {/* <span className='nav-text'>Hello!</span> */}
+            <a href='#'>
+              <span className='nav-text'>Hello!</span>
               <span className='hidden sm:block font-semibold hover:scale-125 duration-300'>{menuText}</span>
-            </NavLink>
+            </a>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Home')} onMouseLeave={() => menuHover('rod.dev')}>
-            <NavLink to='/'>
+            <a href='#'>
               <span className='nav-text'>Home</span>
               {/* {window.location.pathname == '#' ? <FaHouse className='nav-active' /> : <FaHouse className='nav-icons' />} */}
               <FaHouse className='nav-icons' />
-            </NavLink>
+            </a>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Experiences')} onMouseLeave={() => menuHover('rod.dev')}>
-            <NavLink to=''>
+            <a href='#experiences-section'>
               <span className='nav-text'>Experiences</span>
               <FaFolderOpen className='nav-icons' />
-            </NavLink>
+            </a>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Skills')} onMouseLeave={() => menuHover('rod.dev')}>
-            <NavLink to=''>
+            <a href='#skills-section'>
               <span className='nav-text'>Skills</span>
               <FaBrain className='nav-icons' />
-            </NavLink>
+            </a>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Contacts')} onMouseLeave={() => menuHover('rod.dev')}>
             <NavLink to=''>
@@ -46,10 +46,10 @@ const Navbar = () => {
             </NavLink>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Resume')} onMouseLeave={() => menuHover('rod.dev')}>
-            <NavLink to='/resume'>
+            <a href='#resume'>
               <span className='nav-text'>Resume</span>
               <FaFilePdf className='nav-icons' />
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>

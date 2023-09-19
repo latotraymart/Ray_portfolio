@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   background: #000000;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
+  margin-bottom: 200px;
+}
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #navbar {
-  /* background: yellow; */
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -18,10 +27,11 @@ body {
 }
 
 #navbar-design {
-  background: #ffffff;
-  padding: 10px;
-  border-radius: 30px;
-  box-shadow: rgb(255, 255, 255) 0px 0px 45px -12px;
+  background: rgba( 255, 255, 255, 0.55 );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
 }
 
 .nav-active {
@@ -52,11 +62,8 @@ body {
 }
 
 .nav-items:hover .nav-icons {
-  /* background: none;
-  border: 1px solid #000000;
-  border-radius: 50%; */
   color: #F05454;
-  background: rgba( 255, 255, 255, 0.5 );
+  background: rgba( 255, 255, 255, 0.7 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 10px );
   -webkit-backdrop-filter: blur( 10px );
@@ -68,12 +75,12 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-  animation: animate 5s ease-in-out infinite;
+  animation: animate-hero 5s ease-in-out infinite;
   transition: all 1s ease-in-out;
   border: 3px solid #ffffff;
 }
 
-@keyframes animate {
+@keyframes animate-hero {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
@@ -83,11 +90,6 @@ body {
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
-}
-
-#intro-text {
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 #resume-body {
@@ -109,5 +111,102 @@ body {
 
 .hero-links:hover {
   color: #F05454;
-  transform: scale(1.5) translateY(10px) rotate(360deg);
+  transform: scale(1.3) translateY(10px);
+}
+
+#contacts {
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+#contacts-card {
+  display: flex;
+  justify-content: center;
+}
+
+#card-left {
+  background: #F05454;
+  padding: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+#card-right {
+  background: #ffffff;
+  color: #000000;
+  padding: 20px;
+  border-radius: 0 5px 5px 0;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  border: 2px solid #424949;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  transition: .3s ease-in-out;
+}
+
+.skills-logo-div {
+  height: 30px;
+  width: 30px;
+}
+
+.skills-logo {
+  height: 100%;
+  object-fit: contain;
+}
+
+.skills-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  transition: .3s ease-in-out;
+}
+
+.skills-text-hidden {
+  color: #ffffff;
+  margin-left: 10px;
+  transition: .3s ease-in-out;
+  opacity: 0;
+  font-size: 13px;
+  position: absolute;
+}
+
+.skill:hover {
+  border: 2px solid #ffffff;
+}
+
+.skill:hover .skills-text {
+  transform: translateY(-7px);
+}
+
+.skill:hover .skills-text-hidden {
+  opacity: 1;
+  transform: translateY(-11px);
+}
+
+.exp-card {
+  border: 2px solid #424949;
+  border-radius: 10px;
+}
+
+.exp-img-div {
+  height: 200px;
+}
+
+.exp-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.exp-description {
+  font-size: 14px;
+  line-height: 25px;
+  color: #aaaaaa;
 }
