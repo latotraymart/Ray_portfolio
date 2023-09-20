@@ -10,7 +10,7 @@ const homepage = () => {
       <Hero />
       <Experience />
       <Skills />
-      <ResumeBody />
+      {/* <ResumeBody /> */}
     </React.Fragment>
   )
 }

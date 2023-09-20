@@ -189,24 +189,29 @@ body {
   transform: translateY(-11px);
 }
 
-.exp-card {
-  border: 2px solid #424949;
+.exp-card, .project {
+  /* border: 2px solid #424949; */
   border-radius: 10px;
 }
 
-.exp-img-div {
+.exp-img-div, .project-img-div {
   height: 200px;
 }
 
-.exp-img {
+.exp-img, .project-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 
-.exp-description {
+.exp-description, .proj-description {
   font-size: 14px;
   line-height: 25px;
   color: #aaaaaa;
+}
+
+.exp-text, .project-text {
+  background: #1B1B1B;
+  border-radius: 0 0 10px 10px;
 }
