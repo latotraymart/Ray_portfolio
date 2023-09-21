@@ -5,7 +5,7 @@ import Capstone_img from './../assets/capstone-img.png'
 const Experience = () => {
   return (
     <>
-      <section className='py-10 md:py-20 px-10 md:px-24 lg:px-32 xl:px-60' id='experiences-section'>
+      <section className='py-10 md:py-20 px-5 md:px-24 lg:px-32 xl:px-60' id='experiences-section'>
         <p className='font-bold text-2xl mb-5 text-white'>Experiences</p>
         <div className='block md:flex justify-between gap-x-10 gap-y-10'>
           <div className="exp-card mb-10 md:mb-0 w-full md:w-1/2">

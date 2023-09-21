@@ -13,7 +13,7 @@ import tailwind_logo from './../assets/tailwind-logo.png';
 
 const TechStack = () => {
   return (
-    <div className='skills grid place-items-center sm:place-items-start grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-5 gap-x-5'>
+    <div className='skills grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-5 gap-x-5'>
       <div className='skill'>
         <div className='skills-logo-div'>
           <img src={html_logo} className='skills-logo' />

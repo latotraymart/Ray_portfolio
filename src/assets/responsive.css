@@ -42,6 +42,11 @@
   #resume-body {
     width: 480px;
   }
+
+  .skill {
+    width: 150px;
+    height: 60px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -77,6 +82,11 @@
 
   #resume-body {
     width: 600px;
+  }
+
+  .skill {
+    width: 200px;
+    height: 60px;
   }
 }
 
@@ -114,6 +124,11 @@
   #resume-body {
     width: 800px;
   }
+
+  .skill {
+    width: 200px;
+    height: 60px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -150,6 +165,11 @@
   #resume-body {
     width: 1000px;
   }
+
+  .skill {
+    width: 200px;
+    height: 60px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -185,5 +205,10 @@
 
   #resume-body {
     width: 1200px;
+  }
+
+  .skill {
+    width: 200px;
+    height: 60px;
   }
 }

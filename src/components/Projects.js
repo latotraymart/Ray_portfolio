@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         <div className="project-text text-white px-3 py-4 h-3/5 overflow-hidden">
           <a href='https://rod-dev.netlify.app/' target='_blank' className='font-bold border-b-2'>First Portfolio</a>
-          <p className='mt-3'>Tech Stack: <span className='proj-description'>React JS, BOOTSTRAP</span></p>
+          <p className='mt-3'>Tech Stack: <span className='proj-description'>React JS, BOOTSTRAP, CSS</span></p>
           <p className='proj-description justify-text mt-1'>This project was my first ever portfolio. I did this project when I was starting to learn React JS.</p>
         </div>
       </div>

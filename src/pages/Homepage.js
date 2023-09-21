@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 import ResumeBody from '../components/ResumeBody'
+import Contacts from '../components/Contacts'
 
 const homepage = () => {
   return (
@@ -10,6 +11,7 @@ const homepage = () => {
       <Hero />
       <Experience />
       <Skills />
+      <Contacts />
       {/* <ResumeBody /> */}
     </React.Fragment>
   )

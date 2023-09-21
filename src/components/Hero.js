@@ -12,7 +12,7 @@ const Hero = () => {
   })
 
   return (
-    <div className='block md:flex columns-1 md:columns-2 items-center justify-center gap-10 py-20 px-10 md:px-24 lg:px-32 xl:px-60' id='#'>
+    <div className='block md:flex columns-1 md:columns-2 items-center justify-center gap-10 py-20 px-5 md:px-24 lg:px-32 xl:px-60' id='#'>
       <div id='hero-profile-box' className='flex justify-center'>
         <div id='hero-profile'></div>
       </div>
