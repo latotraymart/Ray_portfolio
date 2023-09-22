@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className='nav-items' onMouseEnter={() => menuHover('Home')} onMouseLeave={() => menuHover('rod.dev')}>
             <a href='#'>
               <span className='nav-text'>Home</span>
-              {/* {window.location.pathname == '#' ? <FaHouse className='nav-active' /> : <FaHouse className='nav-icons' />} */}
+              {/* {window.location.pathname == '/' ? <FaHouse className='nav-active' /> : <FaHouse className='nav-icons' />} */}
               <FaHouse className='nav-icons' />
             </a>
           </div>
@@ -40,15 +40,9 @@ const Navbar = () => {
             </a>
           </div>
           <div className='nav-items' onMouseEnter={() => menuHover('Contacts')} onMouseLeave={() => menuHover('rod.dev')}>
-            <NavLink to=''>
+            <a href='#contacts-section'>
               <span className='nav-text'>Contacts</span>
               <FaEnvelope className='nav-icons' />
-            </NavLink>
-          </div>
-          <div className='nav-items' onMouseEnter={() => menuHover('Resume')} onMouseLeave={() => menuHover('rod.dev')}>
-            <a href='#resume'>
-              <span className='nav-text'>Resume</span>
-              <FaFilePdf className='nav-icons' />
             </a>
           </div>
         </div>

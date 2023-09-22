@@ -27,9 +27,9 @@ const Hero = () => {
         </p>
         <p className='text-sm text-left justify-text'>I'm an aspiring Developer who's eager to learn and to grow in the field of Web Development. I'm passionate and enthusiastic in becoming a Developer and willing to explore more in the field of IT.</p>
         <div className='flex items-center justify-center md:justify-start mt-4'>
-          <a href="https://github.com/rpgjr" target='_blank'><FaGithub className='hero-links' /></a>
-          <a href="https://www.linkedin.com/in/rpgjr/" target='_blank'><FaLinkedin className='hero-links' /></a>
-          <a href="https://www.facebook.com/genetarodrigo/" target='_blank'><FaFacebook className='hero-links' /></a>
+          <a href="https://github.com/rpgjr" target='_blank' className='hero-links-a'><FaGithub className='hero-links' /></a>
+          <a href="https://www.linkedin.com/in/rpgjr/" target='_blank' className='hero-links-a'><FaLinkedin className='hero-links' /></a>
+          <a href="https://www.facebook.com/genetarodrigo/" target='_blank' className='hero-links-a'><FaFacebook className='hero-links' /></a>
         </div>
       </div>
     </div>

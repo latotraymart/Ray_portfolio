@@ -104,14 +104,21 @@ body {
 }
 
 .hero-links {
-  font-size: 40px;
-  margin-right: 25px;
+  font-size: 35px;
   transition: .3s ease-in-out;
 }
 
-.hero-links:hover {
+.hero-links-a {
+  margin-right: 15px;
+  background: #373737;
+  padding: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero-links-a:hover .hero-links {
   color: #F05454;
-  transform: scale(1.3) translateY(10px);
+  transform: scale(1.3) rotateY(360deg);
 }
 
 #contacts {
@@ -188,7 +195,6 @@ body {
 }
 
 .exp-card, .project {
-  /* border: 2px solid #424949; */
   border-radius: 10px;
 }
 
@@ -216,12 +222,12 @@ body {
 
 .contact-inputs input, .contact-inputs textarea {
   border-radius: 5px;
-  padding: 5px 10px;
-  color: #212121;
+  padding: 8px 10px;
+  color: #ffffff;
   width: 100%;
   outline: none;
   border: none;
-  background: #F8F9F9;
+  background:#373737;
 }
 
 .contacts-icon {
