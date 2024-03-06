@@ -25,7 +25,7 @@ const Experience = () => {
             <div className='exp-text text-white p-5 h-3/5 overflow-hidden'>
               <p className='font-bold text-2xl mt-3'>Full Stack Web Developer</p>
               <p className='mb-5 mt-1'>Capstone Project (Undergraduate Thesis)</p>
-              <p className='justify-text exp-description mb-1'>The <a href="https://puptaps.puptcapstone.net/" className='text-white font-bold' target='_blank'>Alumni Portal System</a>  was the system that I created for my Thesis/Capstone Project. I was the Full Stack Developer and Project Manager of our group. The technologies that I used in this project was PHP Laravel, JavaScript, Bootstrap and Laravel Livewire.</p>
+              <p className='justify-text exp-description mb-1'>The <a href="https://puptaps.pupt-bsit.net/" className='text-white font-bold' target='_blank'>Alumni Portal System</a>  was the system that I created for my Thesis/Capstone Project. I was the Full Stack Developer and Project Manager of our group. The technologies that I used in this project was PHP Laravel, JavaScript, Bootstrap and Laravel Livewire.</p>
             </div>
           </div>
         </div>

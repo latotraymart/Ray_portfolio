@@ -38,19 +38,19 @@ const Contacts = () => {
           <form ref={form} onSubmit={sendEmail} className='contact-form text-white w-full md:w-1/2'>
             <div className='contact-inputs mb-5'>
               <label className=''>Name</label>
-              <input className='' type="text" name='user_name' />
+              <input className='' type="text" name='user_name' required/>
             </div>
             <div className='contact-inputs mb-5'>
               <label className=''>Email</label>
-              <input className='' type="text" name='user_email' />
+              <input className='' type="text" name='user_email' required/>
             </div>
             <div className='contact-inputs mb-5'>
               <label className=''>Contact Number</label>
-              <input className='' type="text" name='user_number' />
+              <input className='' type="text" name='user_number' required/>
             </div>
             <div className='contact-inputs mb-5'>
               <label className=''>Message</label>
-              <textarea className='' type="text" rows={5} name='message' />
+              <textarea className='' type="text" rows={5} name='message' required/>
             </div>
             <button type='submit' value='Send' className='w-1/4 bg-red-400 text-white px-8 py-2 text-sm rounded'>Send</button>
           </form>
