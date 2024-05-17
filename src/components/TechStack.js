@@ -2,12 +2,12 @@ import React from 'react'
 import html_logo from './../assets/html-logo.png';
 import css_logo from './../assets/css-logo.png';
 import js_logo from './../assets/js-logo.png';
-import php_logo from './../assets/php-logo.png';
+import php_logo from './../assets/sj.png';
 import laravel_logo from './../assets/laravel-logo.png';
 import mysql_logo from './../assets/mysql-logo.png';
 import java_logo from './../assets/java-logo.png';
-import cpp_logo from './../assets/cpp-logo.png';
-import react_logo from './../assets/react-logo.png';
+import cpp_logo from './../assets/node.png';
+import react_logo from './../assets/v.png';
 import bs_logo from './../assets/bs-logo.png';
 import tailwind_logo from './../assets/tailwind-logo.png';
 
@@ -46,11 +46,11 @@ const TechStack = () => {
           <img src={php_logo} className='skills-logo' />
         </div>
         <div>
-          <p className='skills-text'>PHP</p>
+          <p className='skills-text'>Express Js</p>
           <p className='skills-text-hidden'>Intermediate</p>
         </div>
       </div>
-      <div className='skill'>
+      {/* <div className='skill'>
         <div className='skills-logo-div'>
           <img src={laravel_logo} className='skills-logo' />
         </div>
@@ -58,13 +58,13 @@ const TechStack = () => {
           <p className='skills-text'>Laravel</p>
           <p className='skills-text-hidden'>Intermediate</p>
         </div>
-      </div>
+      </div> */}
       <div className='skill'>
         <div className='skills-logo-div'>
           <img src={react_logo} className='skills-logo' />
         </div>
         <div>
-          <p className='skills-text'>React</p>
+          <p className='skills-text'>Vue Js</p>
           <p className='skills-text-hidden'>Beginner</p>
         </div>
       </div>
@@ -77,7 +77,7 @@ const TechStack = () => {
           <p className='skills-text-hidden'>Intermediate</p>
         </div>
       </div>
-      <div className='skill'>
+      {/* <div className='skill'>
         <div className='skills-logo-div'>
           <img src={tailwind_logo} className='skills-logo' />
         </div>
@@ -85,7 +85,7 @@ const TechStack = () => {
           <p className='skills-text'>Tailwind</p>
           <p className='skills-text-hidden'>Beginner</p>
         </div>
-      </div>
+      </div> */}
       <div className='skill'>
         <div className='skills-logo-div'>
           <img src={java_logo} className='skills-logo' />
@@ -100,7 +100,7 @@ const TechStack = () => {
           <img src={cpp_logo} className='skills-logo' />
         </div>
         <div>
-          <p className='skills-text'>C++</p>
+          <p className='skills-text'>Node Js</p>
           <p className='skills-text-hidden'>Beginner</p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import ChatIcon from './../assets/chat-icon.gif'
 import HomeIcon from './../assets/home-icon.gif'
 import SocialIcon from './../assets/social-icon.gif'
 import EmailIcon from './../assets/email-icon.gif'
-import resumePDF from './../assets/Rodrigo-Geneta[RESUME].pdf'
+import resumePDF from './../assets/Raymart-Total-CV.pdf'
 import emailjs from '@emailjs/browser'
 
 const Contacts = () => {
@@ -57,35 +57,35 @@ const Contacts = () => {
           <div className='text-white w-full md:w-1/2 mt-10 md:mt-7'>
             <div className='flex items-center mb-5'>
               <img src={EmailIcon} alt="" className='contacts-icon' />
-              <p className='ms-2'>rodrigo21geneta@gmail.com</p>
+              <p className='ms-2'>raymarttotal17@gmail.com</p>
             </div>
             <div className='flex items-center mb-5'>
               <img src={PhoneIcon} alt="" className='contacts-icon' />
-              <p className='ms-2'>0961-197-3308</p>
+              <p className='ms-2'>09305674412</p>
             </div>
             <div className='flex items-center mb-5'>
               <img src={SocialIcon} alt="" className='contacts-icon' />
-              <a href="https://www.linkedin.com/in/rpgjr/" target='_blank'>
+              <a href="https://www.linkedin.com/in/raymart-total-2a8815250/" target='_blank'>
                 <p className='ms-2 underline underline-offset-2 font-bold'>LinkedIn</p>
               </a>
             </div>
             <div className='flex items-center mb-5'>
               <img src={SocialIcon} alt="" className='contacts-icon' />
-              <a href="https://github.com/rpgjr" target='_blank'>
+              <a href="https://github.com/latotraymart" target='_blank'>
                 <p className='ms-2 underline underline-offset-2 font-bold'>Github</p>
               </a>
             </div>
             <div className='flex items-center mb-5'>
               <img src={ChatIcon} alt="" className='contacts-icon' />
-              <a href="https://m.me/genetarodrigo/" target='_blank'>
+              <a href="https://m.me/raylatot/" target='_blank'>
                 <p className='ms-2 underline underline-offset-2 font-bold'>Facebook Messenger</p>
               </a>
             </div>
             <div className='flex items-center mb-8'>
               <img src={HomeIcon} alt="" className='contacts-icon' />
-              <p className='ms-2'>Taguig City, Metro Manila, Philippines</p>
+              <p className='ms-2'>Laspiñas City, Metro Manila, Philippines</p>
             </div>
-            <a href={resumePDF} target='_blank' rel="noreferrer" download="Rodrigo-Geneta[RESUME]" className='bg-red-400 text-white px-7 py-2 rounded hover:bg-red-600 text-sm'>Download My Resume</a>
+            <a href={resumePDF} target='_blank' rel="noreferrer" download="Raymart-Total[RESUME]" className='bg-red-400 text-white px-7 py-2 rounded hover:bg-red-600 text-sm'>Download My Resume</a>
           </div>
         </div>
       </section>

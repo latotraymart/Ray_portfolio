@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const Hero = () => {
 
   const [text] = useTypewriter({
-    words: ['Front-End Web Developer', 'Back-End Web Developer', 'Full-Stack Web Developer'],
+    words: ['Back-End Web Developer', 'Back-End Web Developer', 'Full-Stack Web Developer'],
     loop: {},
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -17,7 +17,7 @@ const Hero = () => {
         <div id='hero-profile'></div>
       </div>
       <div className='text-white mt-10 md:mt-0'>
-        <p className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-1 text-center md:text-left'>Hi! I'm Rod</p>
+        <p className='text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-1 text-center md:text-left'>Hi! I'm Ray</p>
         <p className='text-lg md:text-xl xl:text-2xl font-semibold mb-1 text-red-400'>
           <span className='text-white'>I'm a </span>
           {text}
@@ -27,9 +27,9 @@ const Hero = () => {
         </p>
         <p className='text-sm text-left justify-text'>I'm an aspiring Developer who's eager to learn and to grow in the field of Web Development. I'm passionate and enthusiastic in becoming a Developer and willing to explore more in the field of IT.</p>
         <div className='flex items-center justify-center md:justify-start mt-4'>
-          <a href="https://github.com/rpgjr" target='_blank' className='hero-links-a'><FaGithub className='hero-links' /></a>
-          <a href="https://www.linkedin.com/in/rpgjr/" target='_blank' className='hero-links-a'><FaLinkedin className='hero-links' /></a>
-          <a href="https://www.facebook.com/genetarodrigo/" target='_blank' className='hero-links-a'><FaFacebook className='hero-links' /></a>
+          <a href="https://github.com/latotraymart" target='_blank' className='hero-links-a'><FaGithub className='hero-links' /></a>
+          <a href="https://www.linkedin.com/in/raymart-total-2a8815250/" target='_blank' className='hero-links-a'><FaLinkedin className='hero-links' /></a>
+          <a href="https://web.facebook.com/raymart.latot.9/" target='_blank' className='hero-links-a'><FaFacebook className='hero-links' /></a>
         </div>
       </div>
     </div>

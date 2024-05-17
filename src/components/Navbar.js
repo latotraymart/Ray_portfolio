@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   
-  const [menuText, setMenuText] = useState('rod.dev');
+  const [menuText, setMenuText] = useState('Raymart.dev');
 
   const menuHover = (text) => {
     setMenuText(text);
@@ -20,26 +20,26 @@ const Navbar = () => {
               <span className='hidden sm:block font-semibold hover:scale-125 duration-300'>{menuText}</span>
             </a>
           </div>
-          <div className='nav-items' onMouseEnter={() => menuHover('Home')} onMouseLeave={() => menuHover('rod.dev')}>
+          <div className='nav-items' onMouseEnter={() => menuHover('Home')} onMouseLeave={() => menuHover('Raymart.dev')}>
             <a href='#'>
               <span className='nav-text'>Home</span>
               {/* {window.location.pathname == '/' ? <FaHouse className='nav-active' /> : <FaHouse className='nav-icons' />} */}
               <FaHouse className='nav-icons' />
             </a>
           </div>
-          <div className='nav-items' onMouseEnter={() => menuHover('Experiences')} onMouseLeave={() => menuHover('rod.dev')}>
+          <div className='nav-items' onMouseEnter={() => menuHover('Experiences')} onMouseLeave={() => menuHover('Raymart.dev')}>
             <a href='#experiences-section'>
               <span className='nav-text'>Experiences</span>
               <FaFolderOpen className='nav-icons' />
             </a>
           </div>
-          <div className='nav-items' onMouseEnter={() => menuHover('Skills')} onMouseLeave={() => menuHover('rod.dev')}>
+          <div className='nav-items' onMouseEnter={() => menuHover('Skills')} onMouseLeave={() => menuHover('Raymart.dev')}>
             <a href='#skills-section'>
               <span className='nav-text'>Skills</span>
               <FaBrain className='nav-icons' />
             </a>
           </div>
-          <div className='nav-items' onMouseEnter={() => menuHover('Contacts')} onMouseLeave={() => menuHover('rod.dev')}>
+          <div className='nav-items' onMouseEnter={() => menuHover('Contacts')} onMouseLeave={() => menuHover('Raymart.dev')}>
             <a href='#contacts-section'>
               <span className='nav-text'>Contacts</span>
               <FaEnvelope className='nav-icons' />
