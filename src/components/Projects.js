@@ -69,7 +69,7 @@ Git, Github</span></p>
           <img src={Project_5} alt="" className='project-img' />
         </div>
         <div className="project-text text-white px-3 py-4 h-3/5 overflow-hidden">
-          <a href='https://github.com/latotraymart/Computer-Vision-Calculator-Python/' target='_blank' className='font-bold border-b-2'>Python Calculator with Computer Vison</a>
+          <a href='https://github.com/latotraymart/Computer-Vision-Calculator-Python/' target='_blank' className='font-bold border-b-2'>Python Calculator with Computer Vision</a>
           <p className='mt-3'>TOOLS:  <span className='proj-description'>Python , Pytorch, Media Pipe, Numpy</span></p>
           <p className='proj-description justify-text mt-1'>A Simple Calculator through Computer Vision using Artificial Inteligent.</p>
         </div>
